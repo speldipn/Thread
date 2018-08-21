@@ -4,7 +4,7 @@
 
 * Thread를 상속받아 생성하는 방법
 ````java
-**class MyThread extends Thread** {
+class MyThread extends Thread {
  @Override
   public void run() {
     for(int i = 1; i <= 100; ++i) {
@@ -17,7 +17,7 @@
 
 * Runnable 인터페이스를 상속받아서 생성하는 방법
 ````java
-**class MyRunnable implements Runnable** {
+class MyRunnable implements Runnable {
 @Override
   public void run() {
     for (int i = 1; i <= 100; ++i) {
